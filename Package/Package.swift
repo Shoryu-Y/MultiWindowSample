@@ -12,6 +12,7 @@ let package = Package(
             targets: [
                 "OpenWindow",
                 "ChangeWindowSize",
+                "AuthenticationWithPush",
             ]
         ),
     ],
@@ -24,5 +25,9 @@ let package = Package(
             name: "ChangeWindowSize",
             path: "Sources/2_ChangeWindowSize"
         ),
+        .target(
+            name: "AuthenticationWithPush",
+            path: "Sources/3_AuthenticationWithPush"
+        )
     ]
 )

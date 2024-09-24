@@ -8,14 +8,18 @@
 import SwiftUI
 import OpenWindow
 import ChangeWindowSize
+import AuthenticationWithPush
 
 @main
 struct MultiWindowExampleApp: App {
     var body: some Scene {
-        WindowGroup(id: "FirstView") {
+//        WindowGroup(id: "FirstView") {
 //            OpenWindow.FirstView()
-            ChangeWindowSize.FirstView()
-        }
+//            ChangeWindowSize.FirstView()
+//        }
+
+        AuthenticationWithPush.AuthScene()
+        AuthenticationWithPush.MainScene()
 
         OpenWindow.TargetSceneWithID()
         OpenWindow.TargetSceneWithValue()
