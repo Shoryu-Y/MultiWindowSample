@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct iPadMultiWindowAppApp: App {
+struct iPadMultiWindowApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()

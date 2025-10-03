@@ -5,7 +5,7 @@
       location = "group:UIKitMaltiWindow/UIKitMaltiWindow.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:iPadMultiWindowApp/iPadMultiWindowApp.xcodeproj">
+      location = "group:iPadMultiWindowApp/iPadMultiWindow.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MultiWindowExample/visionOSMultiWindowExample.xcodeproj">

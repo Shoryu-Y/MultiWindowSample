@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		34F4D8702E87BA7600061B7B /* iPadMultiWindowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadMultiWindowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F4D8702E87BA7600061B7B /* iPadMultiWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadMultiWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		34F4D8842E8951D400061B7B /* Exceptions for "iPadMultiWindowApp" folder in "iPadMultiWindowApp" target */ = {
+		34F4D8842E8951D400061B7B /* Exceptions for "iPadMultiWindowApp" folder in "iPadMultiWindow" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 34F4D86F2E87BA7600061B7B /* iPadMultiWindowApp */;
+			target = 34F4D86F2E87BA7600061B7B /* iPadMultiWindow */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -24,7 +24,7 @@
 		34F4D8722E87BA7600061B7B /* iPadMultiWindowApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				34F4D8842E8951D400061B7B /* Exceptions for "iPadMultiWindowApp" folder in "iPadMultiWindowApp" target */,
+				34F4D8842E8951D400061B7B /* Exceptions for "iPadMultiWindowApp" folder in "iPadMultiWindow" target */,
 			);
 			path = iPadMultiWindowApp;
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 		34F4D8712E87BA7600061B7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34F4D8702E87BA7600061B7B /* iPadMultiWindowApp.app */,
+				34F4D8702E87BA7600061B7B /* iPadMultiWindow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34F4D86F2E87BA7600061B7B /* iPadMultiWindowApp */ = {
+		34F4D86F2E87BA7600061B7B /* iPadMultiWindow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34F4D87B2E87BA7700061B7B /* Build configuration list for PBXNativeTarget "iPadMultiWindowApp" */;
+			buildConfigurationList = 34F4D87B2E87BA7700061B7B /* Build configuration list for PBXNativeTarget "iPadMultiWindow" */;
 			buildPhases = (
 				34F4D86C2E87BA7600061B7B /* Sources */,
 				34F4D86D2E87BA7600061B7B /* Frameworks */,
@@ -84,11 +84,11 @@
 			fileSystemSynchronizedGroups = (
 				34F4D8722E87BA7600061B7B /* iPadMultiWindowApp */,
 			);
-			name = iPadMultiWindowApp;
+			name = iPadMultiWindow;
 			packageProductDependencies = (
 			);
 			productName = iPadMultiWindowApp;
-			productReference = 34F4D8702E87BA7600061B7B /* iPadMultiWindowApp.app */;
+			productReference = 34F4D8702E87BA7600061B7B /* iPadMultiWindow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34F4D86B2E87BA7600061B7B /* Build configuration list for PBXProject "iPadMultiWindowApp" */;
+			buildConfigurationList = 34F4D86B2E87BA7600061B7B /* Build configuration list for PBXProject "iPadMultiWindow" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34F4D86F2E87BA7600061B7B /* iPadMultiWindowApp */,
+				34F4D86F2E87BA7600061B7B /* iPadMultiWindow */,
 			);
 		};
 /* End PBXProject section */
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34F4D86B2E87BA7600061B7B /* Build configuration list for PBXProject "iPadMultiWindowApp" */ = {
+		34F4D86B2E87BA7600061B7B /* Build configuration list for PBXProject "iPadMultiWindow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34F4D8792E87BA7700061B7B /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34F4D87B2E87BA7700061B7B /* Build configuration list for PBXNativeTarget "iPadMultiWindowApp" */ = {
+		34F4D87B2E87BA7700061B7B /* Build configuration list for PBXNativeTarget "iPadMultiWindow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34F4D87C2E87BA7700061B7B /* Debug */,

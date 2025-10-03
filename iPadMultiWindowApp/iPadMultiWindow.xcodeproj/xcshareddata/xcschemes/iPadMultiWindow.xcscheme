@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "34F4D86F2E87BA7600061B7B"
-               BuildableName = "iPadMultiWindowApp.app"
-               BlueprintName = "iPadMultiWindowApp"
-               ReferencedContainer = "container:iPadMultiWindowApp.xcodeproj">
+               BuildableName = "iPadMultiWindow.app"
+               BlueprintName = "iPadMultiWindow"
+               ReferencedContainer = "container:iPadMultiWindow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34F4D86F2E87BA7600061B7B"
-            BuildableName = "iPadMultiWindowApp.app"
-            BlueprintName = "iPadMultiWindowApp"
-            ReferencedContainer = "container:iPadMultiWindowApp.xcodeproj">
+            BuildableName = "iPadMultiWindow.app"
+            BlueprintName = "iPadMultiWindow"
+            ReferencedContainer = "container:iPadMultiWindow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34F4D86F2E87BA7600061B7B"
-            BuildableName = "iPadMultiWindowApp.app"
-            BlueprintName = "iPadMultiWindowApp"
-            ReferencedContainer = "container:iPadMultiWindowApp.xcodeproj">
+            BuildableName = "iPadMultiWindow.app"
+            BlueprintName = "iPadMultiWindow"
+            ReferencedContainer = "container:iPadMultiWindow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
