@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3488ABFD2E8FA777004B61B0 /* iPadOSPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 3488ABFC2E8FA777004B61B0 /* iPadOSPackage */; };
+		3488ABFF2E8FA77B004B61B0 /* CollectionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 3488ABFE2E8FA77B004B61B0 /* CollectionPackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		34F4D8702E87BA7600061B7B /* iPadMultiWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadMultiWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3488ABFD2E8FA777004B61B0 /* iPadOSPackage in Frameworks */,
+				3488ABFF2E8FA77B004B61B0 /* CollectionPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,8 @@
 			);
 			name = iPadMultiWindow;
 			packageProductDependencies = (
+				3488ABFC2E8FA777004B61B0 /* iPadOSPackage */,
+				3488ABFE2E8FA77B004B61B0 /* CollectionPackage */,
 			);
 			productName = iPadMultiWindowApp;
 			productReference = 34F4D8702E87BA7600061B7B /* iPadMultiWindow.app */;
@@ -365,6 +374,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3488ABFC2E8FA777004B61B0 /* iPadOSPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iPadOSPackage;
+		};
+		3488ABFE2E8FA77B004B61B0 /* CollectionPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CollectionPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34F4D8682E87BA7600061B7B /* Project object */;
 }

@@ -1,24 +1,25 @@
 import SwiftUI
+import Gallery
 
 @main
 struct iPadMultiWindowApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            GalleryView()
         }
 
-        WindowGroup(id: "1") {
-            Text("ID: 1")
-        }
+        Gallery.DetailScene()
+
+        Gallery.DetailSceneWithUserActivity()
     }
 }
 
-struct MainView: View {
+struct ContentView: View {
     @Environment(\.openWindow) var openWindow
 
     var body: some View {
-        Button("Open New Window") {
-            openWindow(id: "1")
+        Button("新しいウィンドウを開く") {
+            openWindow(id: "ID")
         }
     }
 }

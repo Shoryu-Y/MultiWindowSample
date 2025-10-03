@@ -16,4 +16,7 @@
    <FileRef
       location = "group:iPadOSPackage">
    </FileRef>
+   <FileRef
+      location = "group:CollectionPackage">
+   </FileRef>
 </Workspace>
