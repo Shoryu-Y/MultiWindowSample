@@ -2,9 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MultiWindowExample/MultiWindowExample.xcodeproj">
+      location = "group:UIKitMaltiWindow/UIKitMaltiWindow.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Package">
+      location = "group:iPadMultiWindowApp/iPadMultiWindowApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MultiWindowExample/visionOSMultiWindowExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:visionOSPackage">
+   </FileRef>
+   <FileRef
+      location = "group:iPadOSPackage">
    </FileRef>
 </Workspace>
