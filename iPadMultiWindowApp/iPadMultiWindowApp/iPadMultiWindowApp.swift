@@ -1,11 +1,12 @@
 import SwiftUI
 import Gallery
+import WindowControls
 
 @main
 struct iPadMultiWindowApp: App {
     var body: some Scene {
         WindowGroup {
-            GalleryView()
+            CustomWindowControlsView()
         }
 
         Gallery.DetailScene()

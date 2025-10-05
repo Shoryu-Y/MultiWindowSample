@@ -5,20 +5,73 @@ public struct CustomWindowControlsView: View {
 
     public var body: some View {
         GeometryReader { proxy in
-            Text("ここに注目！")
-                .font(.largeTitle)
-                .padding(.leading, proxy.containerCornerInsets.topLeading.width)
-                .animation(.default, value: proxy.containerCornerInsets)
 
-//            Rectangle()
-//                .fill(.red)
-//                .frame(
-//                    width: proxy.containerCornerInsets.topLeading.width,
-//                    height: proxy.containerCornerInsets.topLeading.height
-//                    + proxy.safeAreaInsets.top
-//                )
-//                .animation(.default, value: proxy.safeAreaInsets)
-//                .ignoresSafeArea()
+            ZStack {
+                VStack {
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(
+                            width: proxy.size.width,
+                            height: proxy.safeAreaInsets.top
+                        )
+
+                    Spacer()
+
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(
+                            width: proxy.size.width,
+                            height: proxy.safeAreaInsets.bottom
+                        )
+                }
+
+                HStack {
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(
+                            width: proxy.safeAreaInsets.leading,
+                            height: proxy.size.height
+                        )
+
+                    Spacer()
+
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(
+                            width: proxy.safeAreaInsets.leading,
+                            height: proxy.size.height
+                        )
+                }
+
+                VStack {
+                    HStack {
+                        Rectangle()
+                            .fill(.red)
+                            .frame(
+                                width: proxy.containerCornerInsets.topLeading.width,
+                                height: proxy.containerCornerInsets.topLeading.height
+                            )
+                            .padding(.top, proxy.safeAreaInsets.top)
+                            .padding(.leading, proxy.safeAreaInsets.leading)
+
+                        Spacer()
+                    }
+
+                    Spacer()
+                }
+            }
+            .ignoresSafeArea()
+        }
+
+        VStack {
+            HStack {
+                Text("とても大切な文字列")
+                    .font(.largeTitle)
+
+                Spacer()
+            }
+
+            Spacer()
         }
     }
 }
